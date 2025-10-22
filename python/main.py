@@ -1,6 +1,5 @@
-from funcion import insertar_artista, insertar_album, insertar_cancion, consultar_canciones, borrar_cancion, importar_excel
+from funciones import insertar_artista, insertar_album, insertar_cancion, consultar_canciones, borrar_cancion, importar_excel
 
-#esta función sirve paraque el usuario interactue con elcodigo 
 def menu():
     while True:
         print(f"\nMenú Spotify ")
@@ -45,5 +44,4 @@ def menu():
             print("Opción inválida")
 
 if __name__ == "__main__":
-    
     menu()

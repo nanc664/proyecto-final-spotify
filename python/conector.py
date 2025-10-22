@@ -1,11 +1,11 @@
 #ARCHIVO PYTHON CONECTOR CON SQL
-import mysql.connector
+import mysql.connector 
 
 conx={
     "host":"localhost",
     "user":"root",
     "password":"Estudiante2025",
-    "database":"colegio_db", #Cambien esto por el nombre de su propiabase de datos
+    "database":"musicadb", #Cambien esto por el nombre de su propiabase de datos
     "port":"3307"
     }
 
